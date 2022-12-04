@@ -1,5 +1,5 @@
 <?php
-$input = $_POST['username'];
+$input = $_GET['username'];
 echo "THE INPUT IS:  ".$input;
 
 include("testfunction3.php");

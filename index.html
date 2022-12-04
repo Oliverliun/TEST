@@ -1,20 +1,10 @@
-<script>
-    var con = document.getElementById("text");
-    var btn = document.querySelector("button");
-    btn.onclick = function () {
-        var d = con.value; //获取表单信息
-        $.ajax({
-            type: "GET",//请求方式
-            data:{text:d},//数据
-            url: "./index.php",//地址
-            success: function (res) { 
-                alert("后台返回数据" + res);
-                console.log(res);
-            },
-            error: function () {
-                alert("请求失败！");
-            }
-        })
-
-    }
-</script>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>这是个标题</title>
+    </head>
+    <body>
+        <h1>这是一个一个简单的HTML</h1>
+        <p>Hello World！</p>
+    </body>
+</html>
